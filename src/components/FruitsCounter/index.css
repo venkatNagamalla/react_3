@@ -1,0 +1,89 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading {
+  color: #000000;
+  font-size: 22px;
+  text-align: center;
+}
+
+span {
+  color: #ffd569;
+}
+
+.image {
+  width: 50%;
+}
+
+.single-fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .fruits-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  .card-container {
+    height: 80%;
+  }
+
+  .heading {
+    font-size: 35px;
+  }
+
+  .image {
+    width: 80%;
+  }
+}
+
+.button {
+  background-color: #007bff;
+  height: 26px;
+  width: 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 11px;
+  margin-top: 30px;
+}
